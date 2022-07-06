@@ -3,73 +3,73 @@
         "id":               1,
         "titulo":           "Kuroko no Basket",
         "imagen":           "imagenes/kuroko6.jpg",
-        "descripcion":      "Anime de Basketball Taiga Kagami es un novato que acaba de entrar al Instituto Seirin, donde conoce a Tetsuya Kuroko, otro novato que se ha unido al club de basket ball. Kuroko era el sexto miembro del conocido equipo 'Generación de los milagros' de la escuela secundaria Teiko, aunque nunca llegó a salir a la luz. Con el paso al instituto, cada uno de los miembros del equipo irán a institutos diferentes, donde intentarán convertir a sus equipos en el mejor de todos."
+        "descripcion":      "Anime de Basketball: Taiga Kagami es un novato que acaba de entrar al Instituto Seirin, donde conoce a Tetsuya Kuroko, otro novato que se ha unido al club de basket ball. Kuroko era el sexto miembro del conocido equipo 'Generación de los milagros' de la escuela secundaria Teiko, aunque nunca llegó a salir a la luz."
     },
     {
         "id":               2,
         "titulo":           "Boku no Hero Academia",
         "imagen":           "imagenes/BokuNoHero7.jpg",
-        "descripcion":      "Anime de Super heroes"
+        "descripcion":      "Anime de Super heroes: Las personas no nacen igual. El protagonista de esta historia es uno de esos casos raros que nacen sin superpoderes, pero esto no le impedirá perseguir su sueño: ser un gran héroe como el legendario All-Might. Para convertirse en el héroe que quiere ser, se apuntará a una de las academias de héroes más prestigiosas del país."
     },
     {
         "id":               3,
         "titulo":           "Black Clover",
         "imagen":           "imagenes/BlackClover1.jpg",
-        "descripcion":      "Anime de magia. Hay un mundo en donde la magia lo es todo. Asta y Yuno crecieron en una iglesia, y el día que cumplieron 15 años participaron en una ceremonia en donde les concedieron grimores los cuales despiertan los poderes mágicos innatos. Asta y Yuno, para probar sus poderes, y el honor que les fueron concedido, se lanzan en una travesía para llegar a ser emperadores mágicos. "
+        "descripcion":      "Anime de magia: Hay un mundo en donde la magia lo es todo. Asta y Yuno crecieron en una iglesia, y el día que cumplieron 15 años participaron en una ceremonia en donde les concedieron grimores los cuales despiertan los poderes mágicos innatos. Asta y Yuno, para probar sus poderes, y el honor que les fueron concedido, se lanzan en una travesía para llegar a ser emperadores mágicos. "
                             
     },
     {
         "id":               4,
         "titulo":           "Dragon Ball Z",
         "imagen":           "imagenes/db1.jpg",
-        "descripcion":      "Anime de accion"
+        "descripcion":      "Anime de accion: En Dragon ball Z Goku se ha convertido en un adulto y está casado con Milk, con la que tiene un hijo llamado Gohan. En esta segunda saga de Dragon ball Goku descubrirá que no es un terricola, sino que pertenece a una raza de guerreros conocida por ser una de las más poderosas de la galaxia, para posteriormente dar paso a los verdaderos enemigos de la serie."
     },
     {
         "id":               5,
         "titulo":           "Naruto Shippuden",
         "imagen":           "imagenes/Naruto1.jpg",
-        "descripcion":      "Anime de ninjas"
+        "descripcion":      "Anime de ninjas: Pasan dos años después de que Naruto y Sakura se fueran a entrenar cada uno con su maestro sannin, en este caso, Naruto se fue con Jiraya y Sakura con Tsunade. Ya tienen 14 años y son unos geniales ninjas, Naruto ha aprendido muchas técnicas nuevas y ha perfeccionado el Kage Bunshin aparte de otras que ya las verán a lo largo de la serie, más una técnica secreta."
     },
     {
         "id":               6,
         "titulo":           "Kenja no Mago",
         "imagen":           "imagenes/kenjaNoMago1.png",
-        "descripcion":      "Anime de isekai en academia"
+        "descripcion":      "Anime de isekai en academia: Un joven que seguramente habia muerto en un accidente, ¡renacio en otro mundo cuando era un bebe! Después de eso, fue recogido por el heroe patriota 'Sage' Merlin Wolford y se le dio el nombre de Shin. Fue criado como nieto por Merlin y absorbio las enseñanzas de Merlin, ganandole algunos poderes impactantes"
     },
     {
         "id":               7,
         "titulo":           "Tales of Zetiria",
         "imagen":           "imagenes/tZetiria4.jpg",
-        "descripcion":      "Anime de serafines"
+        "descripcion":      "Anime de serafines: El protagonista es un Pastor que tiene el sueño de que humanos y serafines vivan en armonía. También posee una importante misión: borrar todas las calamidades de la faz de la tierra. Él adquiere este compromiso tras quitar de una piedra una legendaria espada."
     },
     {
         "id":               8,
         "titulo":           "Mushoku Tensei",
         "imagen":           "imagenes/Mushoku1.png",
-        "descripcion":      "Anime de isekai sin academia"
+        "descripcion":      "Anime de isekai sin academia: Asesinado mientras salvaba a un extraño de una colisión de tráfico, un NEET de 34 años se reencarna en un mundo de magia como Rudeus Greyrat, un bebé recién nacido. Con el conocimiento, la experiencia y los lamentos de su vida anterior retenidos, Ludeus promete llevar una vida plena y no repetir sus errores pasados."
     },
     {
         "id":               9,
         "titulo":           "Dr. Stone",
         "imagen":           "imagenes/DrStone1.jpg",
-        "descripcion":      "Anime cientifico"
+        "descripcion":      "Anime cientifico: Senku es un joven extremadamente inteligente con un gran don para la ciencia y una acida personalidad, y su mejor amigo es Taiju, que es muy buena persona pero mas apto para usar los musculos que para pensar. Cuando tras cierto incidente toda la humanidad acaba convertida en piedra."
     },
     {
         "id":               10,
         "titulo":           "Re-Zero Kara Hajimeru",
         "imagen":           "imagenes/ReZero1.png",
-        "descripcion":      "Anime de isekai y brujas"
+        "descripcion":      "Anime de isekai y brujas: Subaru Natsuki es un estudiante corriente de instituto que se pierde en un mundo alternativo, donde una preciosa chica de pelo plateado lo rescata. Para devolverle el favor decide quedarse con ella, pero el destino con el que carga la muchacha es mucho más pesado de lo que Subaru puede imaginar."
     },
     {
         "id":               11,
         "titulo":           "Sword Art Online",
         "imagen":           "imagenes/SAO4.jpg",
-        "descripcion":      "Anime de videojuegos"
+        "descripcion":      "Anime de videojuegos: Escapar es imposible hasta terminar el juego; un game over significaría una verdadera 'muerte'. Sin saber la 'verdad' de la siguiente generación del Multijugador Masivo Online, 'Sword Art Online(SAO)', con 10 mil usuarios unidos juntos abriendo las cortinas para esta cruel batalla a muerte. Participando solo en SAO."
     },
     {
         "id":               12,
         "titulo":           "Death Note",
         "imagen":           "imagenes/deathNote.jpg",
-        "descripcion":      "Anime de shinigamis"
+        "descripcion":      "Anime de shinigamis: Light Yagami es un excelente estudiante japonés que ha tenido una vida un tanto aburrida. Esto cambia radicalmente cuando encuentra tirado en el patio de la escuela un cuaderno negro conocido como Death Note (Libreta de la Muerte), perdido por un Shinigami (Dios de la muerte) llamado Ryuk."
     }
 ]

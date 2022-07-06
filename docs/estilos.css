@@ -12,7 +12,7 @@
 {    
     display:        flex;
     width:          400%;
-    height:         400px;
+    height:         200px;
     margin-left:    -100%;
 }
 
@@ -62,10 +62,10 @@ section .row img
     transform: scale(1.5);
     
 }
+
 .descripcionAnime p 
 {
-    width: 10px;
-    height: 10px;
+    
     display: none;
     text-align: justify;
     padding: 15px; 
@@ -75,9 +75,12 @@ section .row img
 {
     background: black;
     display: block;
-    position: absolute;
+    position: relative;
+    align-items: center;
+    align-content: center;
     width: 100%;
-    height: 80%;
+    height: 90%;
     transform: scale(.9);
     border-radius: 10px;
+    
 }
