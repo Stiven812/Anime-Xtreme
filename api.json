@@ -1,0 +1,75 @@
+[
+    {
+        "id":               1,
+        "titulo":           "Kuroko no Basket",
+        "imagen":           "imagenes/kuroko6.jpg",
+        "descripcion":      "Anime de Basketball"
+    },
+    {
+        "id":               2,
+        "titulo":           "Boku no Hero Academia",
+        "imagen":           "imagenes/BokuNoHero7.jpg",
+        "descripcion":      "Anime de Super heroes"
+    },
+    {
+        "id":               3,
+        "titulo":           "Black Clover",
+        "imagen":           "imagenes/BlackClover1.jpg",
+        "descripcion":      "Anime de magia. Hay un mundo en donde la magia lo es todo. Asta y Yuno crecieron en una iglesia, y el día que cumplieron 15 años participaron en una ceremonia en donde les concedieron grimores los cuales despiertan los poderes mágicos innatos. Asta y Yuno, para probar sus poderes, y el honor que les fueron concedido, se lanzan en una travesía para llegar a ser emperadores mágicos. "
+                            
+    },
+    {
+        "id":               4,
+        "titulo":           "Dragon Ball Z",
+        "imagen":           "imagenes/db1.jpg",
+        "descripcion":      "Anime de accion"
+    },
+    {
+        "id":               5,
+        "titulo":           "Naruto Shippuden",
+        "imagen":           "imagenes/Naruto1.jpg",
+        "descripcion":      "Anime de ninjas"
+    },
+    {
+        "id":               6,
+        "titulo":           "Kenja no Mago",
+        "imagen":           "imagenes/kenjaNoMago1.png",
+        "descripcion":      "Anime de isekai en academia"
+    },
+    {
+        "id":               7,
+        "titulo":           "Tales of Zetiria",
+        "imagen":           "imagenes/tZetiria4.jpg",
+        "descripcion":      "Anime de serafines"
+    },
+    {
+        "id":               8,
+        "titulo":           "Mushoku Tensei",
+        "imagen":           "imagenes/Mushoku1.png",
+        "descripcion":      "Anime de isekai sin academia"
+    },
+    {
+        "id":               9,
+        "titulo":           "Dr. Stone",
+        "imagen":           "imagenes/DrStone1.jpg",
+        "descripcion":      "Anime cientifico"
+    },
+    {
+        "id":               10,
+        "titulo":           "Re-Zero Kara Hajimeru",
+        "imagen":           "imagenes/ReZero1.png",
+        "descripcion":      "Anime de isekai y brujas"
+    },
+    {
+        "id":               11,
+        "titulo":           "Sword Art Online",
+        "imagen":           "imagenes/SAO4.jpg",
+        "descripcion":      "Anime de videojuegos"
+    },
+    {
+        "id":               12,
+        "titulo":           "Death Note",
+        "imagen":           "imagenes/deathNote.jpg",
+        "descripcion":      "Anime de shinigamis"
+    }
+]
