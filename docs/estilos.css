@@ -12,7 +12,7 @@
 {    
     display:        flex;
     width:          400%;
-    height:         200px;
+    height:         400px;
     margin-left:    -100%;
 }
 
@@ -63,7 +63,7 @@ section .row img
     
 }
 
-.descripcionAnime p 
+ .descripcionAnime p 
 {
     
     display: none;
@@ -71,7 +71,7 @@ section .row img
     padding: 15px; 
 }
 
-.card-body:hover p
+/*.card-body:hover p
 {
     background: black;
     display: block;
@@ -83,4 +83,9 @@ section .row img
     transform: scale(.9);
     border-radius: 10px;
     
+} */
+
+.estiloModal
+{
+    visibility: hidden;
 }

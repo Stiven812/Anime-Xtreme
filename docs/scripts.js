@@ -1,3 +1,4 @@
+// --------------------------------------------Esta seccion obtiene los elementos del DOM--------------------------------------------
 const cont2 = document.querySelector("#cont2");
 const contImg = document.querySelectorAll(".contImg")
 const items = document.getElementById("items");
@@ -5,12 +6,15 @@ const items = document.getElementById("items");
 const templateTarjetas = document.getElementById("template-tarjetas").content;
 const templateDescripcionTarjetas = document.getElementById("templateDescripcionTarjetas").content;
 const descripcionAnime = document.getElementsByClassName("descripcionAnime");
-//const modal = document.getElementById("modal");
+const ventanaModal = document.getElementById("ventanaModal");
+const btnTrailer = document.getElementById("btnTrailer");
 
 const descripcion = document.getElementsByClassName("descripcion");
 const fragment = document.createDocumentFragment();
 
+let arraydescripcion = [];
 
+// -------------------funcion para animar el banner------------------------
 let ultimaImagen = contImg[contImg.length-1];
 cont2.insertAdjacentElement("afterbegin", ultimaImagen);
 
@@ -25,8 +29,9 @@ const next = ()=>{
     }, 500);
 }
 
-setInterval(function(){next();}, 7000);
+setInterval(function(){next();}, 4000);
 
+// ------------------------------Obtener datos de la API y mostrarlos en la web-----------------------------
 document.addEventListener("DOMContentLoaded", e => 
 {   
     fetchdatos();
@@ -34,46 +39,76 @@ document.addEventListener("DOMContentLoaded", e =>
 });
 //(function(){ })();// Sintaxis Funcion autoejecutable
 
-
+let datos;
 const fetchdatos = async() => 
 {
     try {
         const respuesta = await fetch("api.json");
-        const datos = await respuesta.json();                
+        datos = await respuesta.json();                
         
         //console.log(datos);
         mostrarTarjetas(datos);
-        //mostrardescripcion(datos);
+        mostrardescripcion(datos);
 
-        // items.addEventListener("mouseover", (e)=>
-        // {
-        //     if(e.target.classList.contains("descripcion"))
-        // {
-        //     datos.forEach(elementos =>{
-        //         desc = elementos.id;
-        //         //console.log(desc);
-                
-        //     });
-        //     prueba = e.target.parentNode.parentNode.parentNode.childNodes[3].textContent;
-        //     console.log(prueba); 
-            
-        //     const soloDescrpcion = datos.descripcion;
-        // };
-        // })
+        
+        
         
     } catch (error) {
         
     }
 }
 
+items.addEventListener("mouseover", (e)=>
+{
+    
+    if(e.target.classList.contains("descripcion"))
+    {
+        //prueba =parseInt(e.target.dataset.id);
+        prueba = e.target.parentElement.lastElementChild;
+        // prueba = e.target.parentElement.firstElementChild;
+        // datos.forEach(elementos =>{
+            
+        //     desc = elementos.id;
+        //     console.log(desc);
+
+        //     //console.log(desc);                    
+        // });
+        // prueba = e.target.parentNode.parentNode.parentNode.childNodes[3].textContent;
+        
+        ventanaModal.innerHTML = prueba.innerHTML;
+        ventanaModal.style.visibility = "visible";        
+        //console.log(prueba); 
+        
+    }
+    
+});
+
+items.addEventListener("click", (e)=>
+{
+    
+    if(e.target.classList.contains("btn-dark"))
+    {
+        //prueba = e.target.parentElement.lastElementChild; 
+        prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
+        
+        ventanaModal.style.visibility = "hidden";
+        ventanaModal.innerHTML = prueba.innerHTML;
+        console.log(prueba);
+        
+    }
+    
+});
+
 
 function mostrarTarjetas(datos)
 {
     
     datos.forEach(elementos => {
-        templateTarjetas.querySelector("img").setAttribute("src", elementos.imagen)
-        templateTarjetas.querySelector("h3").textContent = elementos.titulo
-        templateTarjetas.querySelector("p").textContent = elementos.descripcion
+        templateTarjetas.querySelector("img").setAttribute("src", elementos.imagen);
+        templateTarjetas.querySelector("h3").textContent = elementos.titulo;
+        templateTarjetas.querySelector("p").textContent = elementos.descripcion;
+        templateTarjetas.querySelector("button").dataset.id = elementos.id;
+        
         
         
         const clon = templateTarjetas.cloneNode(true)
