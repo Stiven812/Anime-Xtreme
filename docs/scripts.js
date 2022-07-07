@@ -7,6 +7,7 @@ const templateTarjetas = document.getElementById("template-tarjetas").content;
 const templateDescripcionTarjetas = document.getElementById("templateDescripcionTarjetas").content;
 const descripcionAnime = document.getElementsByClassName("descripcionAnime");
 const ventanaModal = document.getElementById("ventanaModal");
+const ventanaModal2 = document.getElementById("ventanaModal2");
 const btnTrailer = document.getElementById("btnTrailer");
 
 const descripcion = document.getElementsByClassName("descripcion");
@@ -75,8 +76,8 @@ items.addEventListener("mouseover", (e)=>
         // });
         // prueba = e.target.parentNode.parentNode.parentNode.childNodes[3].textContent;
         
-        ventanaModal.innerHTML = prueba.innerHTML;
-        ventanaModal.style.visibility = "visible";        
+        //ventanaModal.innerHTML = prueba.innerHTML;
+        ventanaModal2.style.visibility = "visible";        
         //console.log(prueba); 
         
     }
@@ -89,11 +90,12 @@ items.addEventListener("click", (e)=>
     if(e.target.classList.contains("btn-dark"))
     {
         //prueba = e.target.parentElement.lastElementChild; 
-        prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
+        //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
+        //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild;    
         
         ventanaModal.style.visibility = "hidden";
-        ventanaModal.innerHTML = prueba.innerHTML;
-        console.log(prueba);
+        ventanaModal2.innerHTML = prueba.innerHTML;
+        console.log(e.target);
         
     }
     

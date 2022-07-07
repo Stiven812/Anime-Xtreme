@@ -12,19 +12,19 @@
 </head>
 <!-- //------------------- header ------------------------- // -->
 <header>    
-    <div class="container contPrincipal">
+    <div class="container contPrincipal p-0" id="header">
         <div class="cont2" id="cont2">
             <div class="contImg">
-                <img src="imagenes/legends.png" alt="" class="img-fluid imagen">
+                <img src="imagenes/legends.png" alt="" class="imagen">
             </div>
             <div class="contImg">
-                <img src="imagenes/legends2.jpg" alt="" class="img-fluid imagen">
+                <img src="imagenes/legends2.jpg" alt="" class=" imagen">
             </div>
             <div class="contImg">
-                <img src="imagenes/legends3.png" alt="" class="img-fluid imagen">
+                <img src="imagenes/legends3.png" alt="" class=" imagen">
             </div>
             <div class="contImg">
-                <img src="imagenes/legends4.jpg" alt="" class="img-fluid imagen">
+                <img src="imagenes/legends4.jpg" alt="" class=" imagen">
             </div>
         </div>
     </div>      
@@ -32,26 +32,24 @@
 <!-- //------------------- body ------------------------- // -->
 <body>
             <!-- //------------------- Navbar ------------------------- // -->
-    <div class="container">
+    <div class="container" id="navBarPrincipal">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <div class="container">
                         <img src="imagenes/legends.png" alt="" class="img-thumbnail" width="100px" height="100px">
                     </div>
+                    <a class="nav-link active text-dark" aria-current="page" href="">Inicio</a>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">                        
                         <li class="nav-item">
                             <a class="nav-link" href="#">Horario</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown text-dark">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Directorio
                             </a>
@@ -125,14 +123,17 @@
                         <div class="mb-3 estiloModal" id="ventanaModal">
                             <!-- <label for="recipient-name" class="col-form-label">Recipient:</label>
                             <input type="text" class="form-control" id="recipient-name"> -->
-                            <div class="video">
-                                <!-- <video src=""></video> -->
+                            <!-- <div class="video">
+                                <video src=""></video>
                                 <img src="" alt="">
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="mb-3">
-                            <!-- <label for="message-text" class="col-form-label">aqui estoy</label>
-                            <textarea class="form-control" id="message-text"></textarea> -->
+                        <div class="mb-3 estiloModal" id="ventanaModal2">
+                            <form>
+                                <img src="" alt="">
+                            </form>
+                            <label for="message-text" class="col-form-label">aqui estoy</label>
+                            <textarea class="form-control" id="message-text"></textarea>
                         </div>
                     </form>
                 </div>
@@ -164,11 +165,11 @@
                                     </div>              
                                 </a>                                
                             </div> 
-
-                            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" >
-                                Ver trailer
-                            </button>
-                                         
+                            <div class="text-center">
+                                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                    Ver trailer
+                                </button>
+                            </div>       
                         </div>
                     </div>
                 </div>            
@@ -182,42 +183,22 @@
         </div>
     </section>
             <!-- //------------------- footer ------------------------- // -->
-    <footer class="navbar-light">
+    <footer class="">
         <div class="container">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <div class="container">
-                            <img src="imagenes/legends.png" alt="" class="img-thumbnail" width="100px" height="100px">
-                        </div>
+                            <img src="imagenes/legends.png" alt="" class="img-thumbnail" width="100px" height="100px">                            
+                        </div>                        
+                    </a> 
+                    <a href="#" class="nav-link text-decoration-none text-white mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Contacta con el desarrollador
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Horario</a>
-                            </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Generos</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <a href="#header" class="float-end">
+                        <i class="fa-regular fa-circle-up"></i>
+                    </a>
+                    
                 </div>
             </nav>
         </div>

@@ -1,9 +1,10 @@
 .contPrincipal
 {   
     border-radius:  10px;
-    width:          80%;
+    width:          90%;
+    height:         350px;
     max-width:      1200px;
-    margin:         20px auto;
+    margin:         10px auto;
     overflow:       hidden;     
     position:       relative;
 }
@@ -18,7 +19,7 @@
 
 .contImg
 {            
-    width:          100%;         
+    width:          90%;         
 }
 
 .imagen
