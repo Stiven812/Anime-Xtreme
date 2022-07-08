@@ -8,6 +8,7 @@ const templateDescripcionTarjetas = document.getElementById("templateDescripcion
 const descripcionAnime = document.getElementsByClassName("descripcionAnime");
 const ventanaModal = document.getElementById("ventanaModal");
 const ventanaModal2 = document.getElementById("ventanaModal2");
+const ventanaModal3 = document.getElementById("ventanaModal3");
 const btnTrailer = document.getElementById("btnTrailer");
 
 const descripcion = document.getElementsByClassName("descripcion");
@@ -59,7 +60,7 @@ const fetchdatos = async() =>
     }
 }
 
-items.addEventListener("mouseover", (e)=>
+items.addEventListener("click", (e)=>
 {
     
     if(e.target.classList.contains("descripcion"))
@@ -74,28 +75,55 @@ items.addEventListener("mouseover", (e)=>
 
         //     //console.log(desc);                    
         // });
-        // prueba = e.target.parentNode.parentNode.parentNode.childNodes[3].textContent;
+        //prueba = e.target.parentNode.parentNode.parentNode.childNodes[3].textContent;
         
-        //ventanaModal.innerHTML = prueba.innerHTML;
-        ventanaModal2.style.visibility = "visible";        
-        //console.log(prueba); 
+        ventanaModal.innerHTML = prueba.innerHTML;
+        ventanaModal.style.visibility = "visible";        
+        console.log(prueba); 
+    }
+
+    if(e.target.classList.contains("btn-card"))
+    {
+        prueba = e.target.parentElement.lastElementChild; 
+        //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
+        //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild;    
+        
+        ventanaModal.style.visibility = "hidden";
+        ventanaModal.style.visibility = "visible";
+        ventanaModal2.innerHTML = prueba.innerHTML;
+        console.log(prueba);
         
     }
+
+    // if(e.target.classList.contains("link-contacto"))
+    // {
+    //     prueba = e.target.parentElement.lastElementChild; 
+    //     //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
+    //     //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild;    
+        
+    //     ventanaModal.style.visibility = "hidden";
+    //     ventanaModal2.style.visibility = "hidden";
+    //     ventanaModal3.style.visibility = "visible";
+        
+        
+        
+    // }
     
 });
 
 items.addEventListener("click", (e)=>
 {
     
-    if(e.target.classList.contains("btn-dark"))
+    if(e.target.classList.contains("btn-card"))
     {
-        //prueba = e.target.parentElement.lastElementChild; 
+        prueba = e.target.parentElement.lastElementChild; 
         //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild.attributes[0];    
         //prueba = e.target.parentElement.firstElementChild.firstElementChild.firstElementChild;    
         
         ventanaModal.style.visibility = "hidden";
+        ventanaModal.style.visibility = "visible";
         ventanaModal2.innerHTML = prueba.innerHTML;
-        console.log(e.target);
+        console.log(prueba);
         
     }
     
